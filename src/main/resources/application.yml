@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  mail:
+    host: smtp.163.com
+    username: 发送邮件的邮箱地址
+    password: 授权码
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
